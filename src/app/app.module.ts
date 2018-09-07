@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderModule } from './modules/header/header.module';
+import { ButtonModule } from './modules/button/button.module';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { HeaderModule } from './modules/header/header.module';
   ],
   imports: [
     BrowserModule,
-    HeaderModule
+    HeaderModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
